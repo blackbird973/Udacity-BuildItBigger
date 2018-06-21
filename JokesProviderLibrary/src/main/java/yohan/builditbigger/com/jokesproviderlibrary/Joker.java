@@ -6,8 +6,6 @@ public class Joker {
 
 
     public String getJoke() {
-        return "This is totally a funny joke";
-
-
+        return "My joke is so funny because it is mine and everything from me is funny !";
     }
 }
