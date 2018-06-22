@@ -20,7 +20,7 @@ import yohan.builditbigger.com.jokesproviderlibrary.Joker;
 )
 public class MyEndpoint {
 
-    /** A simple endpoint method that takes a name and says Hi back */
+    /** A simple endpoint method that takes a name joke from the library */
     @ApiMethod(name = "giveJoke")
     public MyBean giveJoke() {
         MyBean response = new MyBean();

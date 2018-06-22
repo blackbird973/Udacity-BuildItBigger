@@ -10,7 +10,7 @@ import android.view.View;
 import yohan.builditbigger.com.jokesandroidlibrary.DisplayJokeFromIntent;
 
 
-public class MainActivity extends AppCompatActivity implements JokeAsyncTaskListener {
+public class MainActivity extends AppCompatActivity implements JokeListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
